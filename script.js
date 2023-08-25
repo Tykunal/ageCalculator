@@ -13,7 +13,7 @@ function calculateAge() {
     document.getElementById("result").innerHTML = "Your age is " + age;
 }
 
-button.addEventListener("click", calculateAge); // Remove the parentheses after calculateAge, else immediate return 
+button.addEventListener("click", calculateAge); // Remove the parentheses after calculateAge, else immediate return .
 
 function getAge(birthdayVal) {
     const curDate = new Date();
